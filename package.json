@@ -1,14 +1,32 @@
 {
   "name": "block-common",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "js,block",
-  "main": "index.js",
+  "main": "./dist/block-commom.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "keywords": [
-    "block"
+    "block common"
   ],
   "author": "yogo",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack": "^3.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanyiTim/block-common.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hanyiTim/block-common/issues"
+  },
+  "homepage": "https://github.com/hanyiTim/block-common#readme",
+  "_from": "block-common@0.0.2",
+  "_resolved": "http://registry.npm.taobao.org/block-common/download/block-common-0.0.2.tgz"
 }
