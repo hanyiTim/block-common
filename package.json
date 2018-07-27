@@ -4,7 +4,8 @@
   "description": "js,block",
   "main": "./dist/block-commom.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "mocha": "mocha lib/*/test.js"
   },
   "keywords": [
     "block common"
@@ -28,5 +29,9 @@
   },
   "homepage": "https://github.com/hanyiTim/block-common#readme",
   "_from": "block-common@0.0.2",
-  "_resolved": "http://registry.npm.taobao.org/block-common/download/block-common-0.0.2.tgz"
+  "_resolved": "http://registry.npm.taobao.org/block-common/download/block-common-0.0.2.tgz",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
 }
